@@ -1,4 +1,4 @@
-
+# Simple Tic-Tac-Toe game to practice Object-oriented Python
 print "Welcome to the tic tac toe"
 
 class Board(object):
@@ -18,12 +18,9 @@ newboard = Board()
 letter = ""
 while letter != "q":
 	letter = raw_input("Please select (x): x or (o): o ")
-	print letter
 	if letter == "x":
-		print "xxxxxxx"
 		location = raw_input("Where would you like to place the letter? (1-9) ")
 	elif letter == "o":
-		print "ooooooo"
 		location = raw_input("Where would you like to place the letter? (1-9) ")
 	else:
 		print "You messed up our game, jerk" 
